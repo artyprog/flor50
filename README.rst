@@ -4,8 +4,6 @@ Photologue Demo Project
 
 About
 =====
-Mofication
-
 This project serves 3 purposes:
 
 - It's a quick demo of django-photologue for people who wish to try it out.
