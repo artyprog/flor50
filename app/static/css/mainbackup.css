@@ -1,0 +1,94 @@
+/*!
+ * Yamm!3
+ * Yet another megamenu for Bootstrap
+ * http://geedmo.github.com/yamm3
+ *
+ * Demo styles
+ */
+
+/* layout */
+body {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #666;
+}
+pre { margin: 0; padding: 10px 20px !important;}
+
+.container { width: auto; max-width: 1170px; }
+
+/* menu styes */
+.list-unstyled,
+.list-unstyled ul { min-width: 120px }
+
+@media ( min-width: 767px ) {
+  .panel-group { width: 400px; }
+  .thumbnail { margin: 0; }
+}
+
+
+.logoimage {
+   margin-top: 100px;
+}
+
+.containercarousel {
+  margin-top: 70px;
+  border : 1px solid #98978B;
+  padding: 5px;
+}
+
+.navbar  {
+  border: 0;
+  border-bottom: 5px solid white !important;
+}
+
+a.navbar-brand {
+   font-family : "Open Sans" !important;
+   font-size : 14px !important;
+   font-style: italic;
+   letter-spacing:1.6px;
+}
+
+.navbar-default{
+  /* background-color: transparent; */
+  background-color: #3e3f3a;
+  border-color: #3e3f3a;
+}
+
+
+a.dropdown-toggle {
+    font-size: 18px !important;
+    font-family: "Helvitica Neue";
+    letter-spacing: 1.6px;
+}
+
+.mp {
+
+  font-family: 'Open Sans' !important;
+  font-size: 14px;
+  color : #3e3f3a;
+  line-height: 0.25;
+  padding: 5px;
+  margin-top:10px;
+  font-weight: 30;
+  letter-spacing: 1.6px;
+
+}
+
+footer {
+  background-color: #3e3f3a;
+  color: black;
+  font-family: 'Open Sans';
+  margin-bottom: 0;
+}
+
+.navbar-inverse {
+    background-color: rgba(222, 42, 20, 1) !important;
+    border:0 !important;
+}
+
+
+.navbar {
+  height: 10px !important;
+  margin:0 !important;
+  padding:0 !important;
+}

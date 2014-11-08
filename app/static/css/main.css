@@ -1,0 +1,137 @@
+body {
+  height: 100%;
+  min-height: 100%;
+
+
+
+}
+
+pre { margin: 0; padding: 10px 20px !important;}
+
+.container { width: auto; max-width: 1170px; }
+
+/* menu styes */
+.list-unstyled,
+.list-unstyled ul { min-width: 120px }
+
+@media ( min-width: 767px ) {
+  .panel-group { width: 400px; }
+  .thumbnail { margin: 0; }
+
+}
+
+.containercarousel {
+  margin-top: 100px !important;
+  border : 1px solid #454730;
+  padding: 5px;
+}
+
+
+
+/* Barre de navigation */
+.navbar  {
+  border: 0;
+  border-top: 1px solid #efffef!important;
+  border-bottom: 1px solid #454730 !important;
+  min-height: 0px !important;  /* controle la hauteur de la barre de nav. */
+  padding-top: 0px;
+  padding-bottom:0px;
+}
+
+a.navbar-brand {
+   font-family : "Times" !important;
+   font-size : 24px !important;
+   letter-spacing: 1.96px;
+   color: #454730 !important;
+   margin-right:20px !important;
+}
+
+.navbar-default{
+  /* background-color: transparent; */
+  background-color: #f2eDd3;
+}
+
+
+a.dropdown-toggle  {
+    background: transparent !important;
+    font-size: 14px !important;
+    font-family: "Times";
+    letter-spacing: 1.26px;
+    margin-top: 11px !important;
+    padding:8px !important;
+    color: #454730 !important;
+    padding-right:4px !important;
+    margin-right:14px;
+    vertical-align: baseline !important;
+
+}
+
+a.dropdown-toggle:focus {
+  background: #454730 !important;
+  color: #fff !important;
+}
+
+/* end navigation */
+
+
+/* paragraphe page home */
+.phome {
+  margin-right:2px;
+  margin-top:32px;
+  font-family:'Times';
+
+
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  margin-bottom: -50px !important;
+  height: 50px !important;
+  background: #fff000 !important;
+  border-top: 1px solid #454730;
+  color: white;
+
+}
+
+
+#wrapper {
+  min-height: 100%;
+  height:100%;
+  position: relative;
+  background: #ff8989;
+}
+
+
+.logo{
+    width:503px;
+    margin:auto;
+    border:0px;
+    margin-top: 45px;
+}
+
+
+@media  (max-width: 360px){
+  #logoimg {
+    width:100%;
+  }
+
+  p {
+    width : 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .containercarousel {
+    margin-top: 35px;
+  }
+}
+
+
+/* Menu items */
+
+a.menuitems {
+  font-family : "Times" !important;
+  text-transform: none !important;
+  font-size: 14px !important;
+}

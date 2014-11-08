@@ -1,0 +1,91 @@
+{% extends 'photologue/index.html' %}
+
+{% load makotag   %}
+
+{% block title %}Galleries{% endblock %}
+
+
+{% block prelude %}
+<div class="container">
+  <div class="row">
+    <div class="text-center img-responsive" style="margin-top:100px;">
+          <p class="phome" style="font-size:24px;">
+             Bienvenue sur Flor50
+          </p>
+          <p class="phome" style="margin-top:3px !important;
+                                  font-size:18px !important;">
+           <em>Atelier de création florale</em>
+         </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+
+{%  block  carousel  %}
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel" >
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="/static/images/jumbotron/domedetail.jpg" alt="First slide">
+      <div class="container">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="/static/images/jumbotron/domedetail.jpg" alt="Second slide">
+      <div class="container">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="/static/images/jumbotron/domedetail.jpg" alt="Third slide">
+      <div class="container">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- /.carousel -->
+{%  endblock %}
+
+
+{% block info %}
+ <div class="container">
+  <div class="row">
+    <div class="text-center img-responsive logo">
+         <img id="logoimg" src="/static/images/logo.png" width="75%" style="border:0">
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="center-block" style="width:400px">
+        <p class="phome pfirst" style="text-align:left;padding-bottom:150px !important;">
+         Toutes les réalisations que vous découvrirez sur notre site
+         ont été conçues par nos équipes, constituées de personnes passionnées
+         par l'art floral.
+         Nous sommes à votre écoute pour toutes demandes particulières,
+         et mettons tout en oeuvre pour votre plus grande statisfaction.
+        </p>
+        <div style="text-align:right">
+          <p class="phome" style="margin-right:30px !important;">Christiane  Grandin</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+{% endblock %}
