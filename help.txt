@@ -1,4 +1,4 @@
-VERSION 1
+VERSION 2
 
 
 https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/

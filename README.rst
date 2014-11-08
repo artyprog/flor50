@@ -4,7 +4,7 @@ Photologue Demo Project
 
 About
 =====
-Mofi
+Mofication
 
 This project serves 3 purposes:
 
